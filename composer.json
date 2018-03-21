@@ -20,7 +20,7 @@
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
-        "samsouder/graphql-php": "dev-master"
+        "samsouder/graphql-php": "dev-master@dev"
     },
     "require-dev": {
         "orchestra/testbench": "3.1.*|3.2.*|3.3.*|3.4.*|3.5.*",
@@ -29,6 +29,12 @@
         "satooshi/php-coveralls": "^1.0",
         "phpunit/phpunit": "~4.0|~5.0|~5.7|~6.0"
     },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/samsouder/graphql-php"
+      }
+    ],
     "autoload": {
         "psr-0": {
             "Folklore\\GraphQL\\": "src/"
